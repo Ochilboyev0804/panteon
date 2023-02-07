@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="absolute">
+        <div
+          class="w-72 h-9 bg-[#F7931E] skew-x-[-38deg] rotate-[51.99deg] translate-y-[780px] translate-x-[-80px] md:translate-y-[600px] md:translate-x-[-80px] lg:translate-y-[600px] lg:translate-x-[-80px]"
+        ></div>
+        <div
+          class="w-72 h-9 border-2 border-white skew-x-[-38deg] rotate-[51.99deg] translate-y-[880px] translate-x-[-80px] md:translate-y-[700px] md:translate-x-[-80px] lg:translate-y-[700px] lg:translate-x-[-80px]"
+        ></div>
+      </div>
+      <div class="container mx-auto px-4 pb-4">
+        <div class="header flex justify-between text-center md:relative">
+          <a href="#">
+            <img
+              src="./images/iconka/site-logo.svg"
+              alt="site logo"
+              class="header__logo"
+              width="230"
+              height="106"
+          /></a>
+          <div
+            class="nav hidden lg:block md:block md:justify-center lg:pt-10 md:absolute lg:static md:pt-24"
+          >
+            <ul class="item flex md:ml-10">
+              <li class="list lg:mx-[22px] md:mx-[20px]">
+                <a href="#" class="link p-2">О нас</a>
+              </li>
+              <li class="list lg:mx-[22px] md:mx-[20px]">
+                <a href="#" class="link p-2">галерея</a>
+              </li>
+              <li class="list lg:mx-[22px] md:mx-[20px]">
+                <a href="#" class="link p-2">Абонементы</a>
+              </li>
+              <li class="list lg:mx-[22px] md:mx-[20px]">
+                <a href="#" class="link p-2">Тренеры</a>
+              </li>
+              <li class="list lg:mx-[22px] md:mx-[20px]">
+                <a href="#" class="link p-2">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div
+              class="header__rectangle w-60 md:w-40 w-40 h-4 lg:h-9 md:h-9 bg-[#F7931E] skew-x-[-38deg] rotate-[51.99deg]"
+            ></div>
+            <div
+              class="header__rectangle w-40 md:w-15 w-15 h-4 lg:h-9 md:h-9 border-white skew-x-[-38deg] rotate-[51.99deg] lg:translate-x-[-40px] lg:translate-y-[-70px] md:translate-x-[25px] md:translate-y-[-60px] translate-y-[-40px] translate-x-[1px] border-2"
+            ></div>
+          </div>
+          <p
+            class="header__tel text-white lg:pt-10 md:pt-10 hidden lg:block md:block"
+          >
+            <a href="#" class="p-2"> +7 (496) 416-19-16 </a>
+          </p>
+          <img
+            src="./images/iconka/Vector.svg"
+            alt="Vector"
+            width="16"
+            height="12"
+            class="lg:hidden md:hidden"
+          />
+        </div>
+        <div class="hero text-center">
+          <h1 class="hero__title">Фитнес клуб Пантеон</h1>
+          <p class="hero__subtitle">Лучше нас только боги</p>
+          <div class="flex justify-center">
+            <div
+              class="border-2 border-[#F7931E] bg-[#F7931E] w-[260px] skew-x-[-30deg] translate-x-[100px]"
+            >
+              <p class="hero__text py-5 skew-x-[30deg]">
+                Получить консультацию
+              </p>
+            </div>
+            <div
+              class="border-2 border-white w-[260px] h-[60px] skew-x-[-30deg] translate-y-[-10px] translate-x-[-140px]"
+            ></div>
+          </div>
+          <div
+            class="flex justify-center items-end lg:mt-[320px] md:mt-[320px] mt-[450px]"
+          >
+            <img src="./images/iconka/arrow.svg" alt="arrow" />
+          </div>
+          <div class="flex justify-end gap-x-4">
+            <img
+              src="./images/iconka/instagiram.svg"
+              alt="instagiram"
+              width="22"
+              height="22"
+            />
+            <img
+              src="./images/iconka/fontisto_vk.svg"
+              alt="fontisto_vk"
+              width="22"
+              height="22"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-section">
+      <div class="container mx-auto px-4">
+        <div
+          class="section flex flex-wrap md:flex-col-reverse flex-col-reverse lg:flex-row pt-12 items-center justify-evenly"
+        >
+          <div class="md:flex jg:flex block">
+            <img
+              src="./images/girl.png"
+              alt="girl"
+              width="358"
+              height="432"
+              class=""
+            />
+            <img
+              src="./images/gym.png"
+              alt="gym"
+              width="358"
+              height="432"
+              class="lg:translate-y-[50px] md:translate-y-0 translate-y-0"
+            />
+          </div>
+
+          <div class="section__left text-center lg:text-start">
+            <h1 class="section__right-title">Новый образ жизни</h1>
+            <p class="section__right-subtitle lg:w-[451px] md:[738px] w-290px">
+              Став частью нашей команды, вы сможете изменить привычный ритм
+              жизни и сделать каждый свой день особенным, а формат наших
+              тренировок позволит вам раскрыть потенциал вашего тела на 100%.
+            </p>
+            <div
+              class="border-2 border-white mx-auto lg:mx-0 w-[260px] skew-x-[-30deg] translate-x-[10px]"
+            >
+              <p class="hero__text py-5 skew-x-[30deg]">
+                Получить консультацию
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:columns-2 lg:columns-4 columns-1 items-center gap-[45px] pt-[100px] pb-[125px]"
+        >
+          <div
+            class="block md:block lg:flex mt-4 lg:mt-0 items-center lg:text-start text-center md:text-center pb-2 hover:border-b-[1px] border-b-[1px] border-[#0c1417] hover:border-[#F7931E] cursor-pointer"
+          >
+            <img
+              src="./images/iconka/stationary.svg"
+              alt="stationary"
+              width="64"
+              height="64"
+              class="inline text-center"
+            />
+            <p class="paragraph lg:w-[223px] w-[223px] mx-auto lg:ml-10">
+              Полностью укомплектованный зал
+            </p>
+          </div>
+          <div
+            class="block md:block lg:flex mt-4 lg:mt-0 items-center lg:text-start md:text-center text-center pb-2 hover:border-b-[1px] border-b-[1px] border-[#0c1417] hover:border-[#F7931E] cursor-pointer"
+          >
+            <img
+              src="./images/iconka/dumbbell.svg"
+              alt="dumbbell"
+              width="64"
+              height="64"
+              class="inline"
+            />
+            <p class="paragraph lg:w-[223px] w-[223px] mx-auto lg:ml-10">
+              Профессиональное оборудование
+            </p>
+          </div>
+          <div
+            class="block md:block lg:flex mt-4 lg:mt-0 items-center lg:text-start md:text-center text-center pb-2 hover:border-b-[1px] border-b-[1px] border-[#0c1417] hover:border-[#F7931E] cursor-pointer"
+          >
+            <img
+              src="./images/iconka/location.svg"
+              alt="location"
+              width="64"
+              height="64"
+              class="inline"
+            />
+            <p class="paragraph lg:w-[223px] w-[223px] mx-auto lg:ml-10">
+              Удобное расположение в центре города
+            </p>
+          </div>
+          <div
+            class="block md:block lg:flex mt-4 lg:mt-0 items-center lg:text-start md:text-center text-center pb-2 hover:border-b-[1px] border-b-[1px] border-[#0c1417] hover:border-[#F7931E] cursor-pointer"
+          >
+            <img
+              src="./images/iconka/wallet.svg"
+              alt="wallet"
+              width="64"
+              height="64"
+              class="inline"
+            />
+            <p class="paragraph lg:w-[223px] w-[223px] mx-auto lg:ml-10">
+              Доступная стоимость занятий
+            </p>
+          </div>
+        </div>
+        <div class="section__bottom">
+          <h1 class="section__bottom-title">Галерея</h1>
+          <div class="section__block1">
+            <div class="flex items-center justify-center">
+              <img
+                src="./images/iconka/arrow-left.svg"
+                alt="arrow-left"
+                width="35"
+                height="22"
+                class="lg:block md:hidden hidden"
+              />
+              <img
+                src="./images/section-img1.png"
+                alt=""
+                width="266"
+                height="375"
+              />
+              <img
+                src="./images/section-img2.png"
+                alt=""
+                width="266"
+                height="375"
+                class="lg:block md:block hidden"
+              />
+              <img
+                src="./images/section-img3.png"
+                alt=""
+                width="266"
+                height="375"
+                class="lg:block md:hidden hidden"
+              />
+              <img
+                src="./images/section-img4.png"
+                alt=""
+                width="266"
+                height="375"
+                class="lg:block md:hidden hidden"
+              />
+              <img
+                src="./images/iconka/arrow-right.svg"
+                alt="arrow-left"
+                width="35"
+                height="22"
+                class="lg:block md:hidden hidden"
+              />
+            </div>
+            <div
+              class="border-2 lg:w-[1000px] md:w-[482px] w-[290px] mx-auto"
+            ></div>
+            <div
+              class="border-2 border-[#F7931E] lg:w-[200px] md:w-[102px] w-[102px] h-[10px] bg-[#F7931E] lg:translate-x-[300px] md:translate-x-[200px] translate-x-[180px] translate-y-[-7px]"
+            ></div>
+          </div>
+          <div class="section__block1 pb-32">
+            <div class="flex items-center justify-center">
+              <img
+                src="./images/iconka/arrow-left.svg"
+                alt="arrow-left"
+                width="35"
+                height="22"
+                class="lg:block md:hidden hidden"
+              />
+              <img
+                src="./images/section-img5.png"
+                alt=""
+                width="361"
+                height="300"
+              />
+              <img
+                src="./images/section-img6.png"
+                alt=""
+                width="361"
+                height="300"
+                class="lg:block md:block hidden"
+              />
+              <img
+                src="./images/section-img7.png"
+                alt=""
+                width="361"
+                height="300"
+                class="lg:block md:hidden hidden"
+              />
+              <img
+                src="./images/iconka/arrow-right.svg"
+                alt="arrow-left"
+                width="35"
+                height="22"
+                class="lg:block md:hidden hidden"
+              />
+            </div>
+            <div
+              class="border-2 lg:w-[1000px] md:w-[482px] w-[290px] mx-auto"
+            ></div>
+            <div
+              class="border-2 border-[#F7931E] lg:w-[200px] md:w-[102px] w-[102px] h-[10px] bg-[#F7931E] lg:translate-x-[300px] md:translate-x-[200px] translate-x-[180px] translate-y-[-7px]"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-72 h-10 bg-[#F7931E] skew-x-[-38deg] rotate-[51.99deg] translate-x-[-80px] translate-y-[-61px]"
+      ></div>
+      <div
+        class="w-72 h-8 border-2 border-white skew-x-[-38deg] rotate-[51.99deg] translate-x-[-140px] translate-y-[-140px]"
+      ></div>
+    </div>
+    <div class="bg__figcaption">
+      <div
+        class="w-72 h-9 bg-[#F7931E] skew-x-[-38deg] rotate-[51.99deg] translate-x-[-80px] translate-y-[200px]"
+      ></div>
+      <div
+        class="w-72 h-9 border-2 border-white skew-x-[-38deg] rotate-[51.99deg] translate-x-[-140px] translate-y-[120px]"
+      ></div>
+      <div class="container mx-auto px-4 pb-[100px]">
+        <div
+          class="figcaption pt-[128px] lg:flex md:block block items-center lg:justify-between md:justify-between justify-center gap-x-4"
+        >
+          <h1 class="figcaption__title md:mb-12 mb-12">Тренеры</h1>
+          <div
+            class="flex lg:justify-between md:justify-between justify-center gap-x-4"
+          >
+            <div class="figcaption__block z-10">
+              <img
+                src="./images/figcaption-img1.png"
+                alt=""
+                width="307"
+                height="430"
+              />
+              <h4 class="figcaption__blok-title">Илья Панченко</h4>
+              <p class="figcaption__blok-subtitle">Персональный тренер</p>
+              <p class="figcaption__blok-subtitle">
+                Инструктор тренажерного зала
+              </p>
+              <p class="figcaption__blok-subtitle">Опыт работы — 4 года</p>
+            </div>
+            <div class="figcaption__block lg:block md:block hidden">
+              <img
+                src="./images/figcaption-img2.png"
+                alt=""
+                width="307"
+                height="430"
+              />
+              <h4 class="figcaption__blok-title">Екатерина Сосина-Нуньес</h4>
+              <p class="figcaption__blok-subtitle">Фитнес-тренер</p>
+              <p class="figcaption__blok-subtitle">Опыт работы — 4 года</p>
+            </div>
+            <div class="figcaption__block lg:block md:hidden hidden">
+              <img
+                src="./images/figcaption-img3.png"
+                alt=""
+                width="307"
+                height="430"
+              />
+              <h4 class="figcaption__blok-title">Юлия Белова</h4>
+              <p class="figcaption__blok-subtitle">Фитнес-тренер</p>
+              <p class="figcaption__blok-subtitle">Опыт работы — 4 года</p>
+            </div>
+            <div class="figcaption__block lg:block md:hidden hidden">
+              <img
+                src="./images/figcaption-img3.png"
+                alt=""
+                width="307"
+                height="430"
+              />
+              <h4 class="figcaption__blok-title">Юлия Белова</h4>
+              <p class="figcaption__blok-subtitle">Фитнес-тренер</p>
+              <p class="figcaption__blok-subtitle">Опыт работы — 4 года</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center mt-12 pb-4">
+          <img
+            src="./images/iconka/arrow-left.svg"
+            alt=""
+            width="26"
+            height="26"
+            class="lg:block md:hidden hidden"
+          />
+          <img
+            src="./images/iconka/arrow-left.svg"
+            alt=""
+            width="26"
+            height="26"
+            class="rotate-180 ml-[40px] lg:block md:hidden hidden"
+          />
+        </div>
+        <div
+          class="border-2 lg:w-[1000px] md:w-[482px] w-[290px] mx-auto lg:hidden md:block block"
+        ></div>
+        <div
+          class="border-2 border-[#F7931E] lg:w-[200px] md:w-[102px] w-[102px] h-[10px] bg-[#F7931E] md:translate-x-[200px] translate-x-[200px] translate-y-[-8px] lg:hidden md:block block"
+        ></div>
+      </div>
+    </div>
+    <div class="bg__article">
+      <div
+        class="container mx-auto flex lg:justify-end md:justify-center justify-center px-4 pb-32"
+      >
+        <div class="article mt-[111px] lg:mr-[100px] text-center self-center">
+          <h1 class="article__title">Остались вопросы?</h1>
+          <p class="article__subtitle">
+            Оставьте Ваш номер телефона <br />
+            и мы <span class="text-amber-500">обязательно с Вами свяжемся</span>
+          </p>
+          <form action="https://echo:htmlacademy.ru/">
+            <div class="">
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Введите имя"
+                  class="input__name bg-transparent w-[300px]"
+                />
+              </div>
+              <div class="mt-6 mb-8">
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Введите телефон"
+                  class="input__name bg-transparent w-[300px]"
+                />
+              </div>
+              <div>
+                <button
+                  class="article__btn border-2 py-[20px] px-[33px] skew-x-[-30deg] mb-[20px]"
+                >
+                  <p class="skew-x-[30deg]">Получить консультацию</p>
+                </button>
+              </div>
+            </div>
+          </form>
+          <p class="article__text">
+            Нажимая на кнопку вы соглашаетесь <br />
+            с политикой конфиденциальности
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg__location lg:block md:block hidden">
+      <div class="container px-4 pt-44 lg:pl-24">
+        <div class="location border-2 bg-[#0C1417] w-80 px-8 py-10">
+          <h1 class="location__title mb-4">Контакты</h1>
+          <div class="flex items-center mb-2">
+            <i class="fa-solid fa-location-dot h-[12px]"></i>
+            <p class="location ml-5">
+              <a href="#">г. Орехово-Зуево, ул. Ленина 84</a>
+            </p>
+          </div>
+          <div class="flex items-center mb-2">
+            <i class="fa fa-light fa-clock h-[10px]"></i>
+            <p class="location ml-4">
+              <a href="#">Ежедневно с 8:00 до 23:00 </a>
+            </p>
+          </div>
+          <div class="flex">
+            <i class="fa fa-light fa-phone mt-[5px]"></i>
+            <p class="location ml-4">
+              <a href="#"
+                >+7 (496) 416-19-16, <br />
+                +7 (925) 881-21-70
+              </a>
+            </p>
+          </div>
+          <p class="location mt-8">Подписывайтесь на наши соц.сети</p>
+          <div class="flex items-center mt-6 gap-x-4">
+            <img
+              src="./images/iconka/instagiram.svg"
+              alt="instagiram"
+              width="22"
+              height="22"
+            />
+            <img
+              src="./images/iconka/fontisto_vk.svg"
+              alt="instagiram"
+              width="22"
+              height="22"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="location2 container mx-auto lg:hidden md:hidden block">
+      <img
+        src="./images/bg-location.png"
+        alt="location"
+        class="lg:hidden md:hidden block"
+      />
+      <div class="location border-2 bg-[#0C1417] px-8 py-10">
+        <h1 class="location__title mb-4">Контакты</h1>
+        <div class="flex items-center mb-2">
+          <i class="fa-solid fa-location-dot h-[12px]"></i>
+          <p class="location ml-5">
+            <a href="#">г. Орехово-Зуево, ул. Ленина 84</a>
+          </p>
+        </div>
+        <div class="flex items-center mb-2">
+          <i class="fa fa-light fa-clock h-[10px]"></i>
+          <p class="location ml-4">
+            <a href="#">Ежедневно с 8:00 до 23:00 </a>
+          </p>
+        </div>
+        <div class="flex">
+          <i class="fa fa-light fa-phone mt-[5px]"></i>
+          <p class="location ml-4">
+            <a href="#"
+              >+7 (496) 416-19-16, <br />
+              +7 (925) 881-21-70
+            </a>
+          </p>
+        </div>
+        <p class="location mt-8">Подписывайтесь на наши соц.сети</p>
+        <div class="flex items-center mt-6 gap-x-4">
+          <img
+            src="./images/iconka/instagiram.svg"
+            alt="instagiram"
+            width="22"
+            height="22"
+          />
+          <img
+            src="./images/iconka/fontisto_vk.svg"
+            alt="instagiram"
+            width="22"
+            height="22"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="footer bg-[#000000]   ">
+      <div class="container px-4 mx-auto">
+        <div class="lg:flex md:flex block justify-between lg:items-center py-[60px]">
+          <div class="flex justify-between items-center lg:block md:block">
+            <a href="#">
+              <img
+                src="./images/iconka/site-logo.svg"
+                alt="site logo"
+                class="header__logo md:w-[174px] md:h-[56px] lg:w-[230px] lg:h-[106px]"
+                width="130"
+                height="42" 
+            /></a>
+            <div class=" lg:hidden md:hidden block">
+              <img
+              src="./images/iconka/Vector.svg"
+              alt="Vector"
+              width="16"
+              height="12"
+            />
+            </div>
+            <ul class=" lg:block md:block hidden">
+              <li class="footer__text"><a href="#">© Все права защищены</a></li>
+              <li class="footer__text">
+                <a href="#">Орехово-Зуево, 2013-2022 </a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:flex md:block hidden justify-center lg:gap-x-[77px]">
+            <div class="">
+              <ul>
+              <li class="footer__text"><a href="#">О нас</a></li>
+              <li class="footer__text"><a href="#">Галерея</a></li>
+              <li class="footer__text"><a href="#">Абонементы</a></li>
+              </ul>
+            </div>
+            <div class="">
+              <ul>
+                <li class="footer__text"><a href="#">Тренеры</a></li>
+                <li class="footer__text"><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="">
+              <ul>
+                <li class="footer__text"><a href="#">Абонементы</a></li>
+                <li class="footer__text"><a href="#">Абонемент по времени</a></li>
+                <li class="footer__text"><a href="#">Разовые тренировки</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="lg:flex md:block md:flex-col-reverse lg:flex-row-reverse  justify-between lg:gap-x-[77px] ">
+            
+            <div class="">
+              <ul>
+                <li class="footer__text"><a href="#">г. Орехово-Зуево, ул. Ленина 84</a></li>
+                <li class="footer__text"><a href="#">Ежедневно с 8:00 до 23:00</a></li>
+                <li class="footer__text"><a href="#">+7 (496) 416-19-16, +7 (925) 881-21-70
+                </a></li>
+                <li class="footer__text"><a href="#">Политика конфиденциальности
+                </a></li>
+                </ul>
+            </div>
+            <div class="">
+              <ul>
+                <li class="footer__text"><a href="#">Наши соц.сети</a></li>
+              </ul>
+              <div class="flex items-center mt-6 gap-x-4">
+               <a href="#"> <img
+                src="./images/iconka/instagiram.svg"
+                alt="instagiram"
+                width="22"
+                height="22"
+              /></a>
+               <a href="#"> <img
+                src="./images/iconka/fontisto_vk.svg"
+                alt="instagiram"
+                width="22"
+                height="22"
+              /></a>
+              </div>
+            </div>
+          </div>
+          <div class="pt-8">
+            <ul class=" lg:hidden md:hidden block">
+              <li class="footer__text"><a href="#">© Все права защищены</a></li>
+              <li class="footer__text">
+                <a href="#">Орехово-Зуево, 2013-2022 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+  </body>
+</html>
